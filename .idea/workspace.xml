@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84ab9470-3cc4-4af7-86a4-4a758ed29514" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cxf-manager/src/main/java/com/zrblog/cxf/main/HelloWorldClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cxf-manager/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cxf-manager/cxf-manager.iml" afterPath="$PROJECT_DIR$/cxf-manager/cxf-manager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cxf-manager/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/cxf-manager/src/main/webapp/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="84ab9470-3cc4-4af7-86a4-4a758ed29514" name="Default" comment="" />
     <ignored path="SsmDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/ssm-common/target/" />
@@ -1068,12 +1062,12 @@
       <updated>1533651414816</updated>
       <workItem from="1533651416256" duration="2460000" />
       <workItem from="1533655106916" duration="3393000" />
-      <workItem from="1533683532053" duration="2260000" />
+      <workItem from="1533683532053" duration="2386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8113000" />
+    <option name="totallyTimeSpent" value="8239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
