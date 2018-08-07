@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxf-manager:war">
+    <output-path>$PROJECT_DIR$/cxf-manager/target</output-path>
+    <root id="archive" name="cxf-manager.war">
+      <element id="artifact" artifact-name="cxf-manager:war exploded" />
+    </root>
+  </artifact>
+</component>
