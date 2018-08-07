@@ -1,0 +1,5 @@
+/cxf-manager/src/main/webapp/WEB-INF/libs
+/cxf-manager/target
+/ssm-manager/ssm-manager-controller/target
+/ssm-manager/ssm-manager-pojo/target
+/ssm-utils/target
