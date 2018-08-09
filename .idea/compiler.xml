@@ -31,7 +31,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cxf-manager" target="1.7" />
+      <module name="cxf-manager" target="1.8" />
       <module name="ssm-common" target="1.7" />
       <module name="ssm-manager" target="1.7" />
       <module name="ssm-manager-controller" target="1.7" />

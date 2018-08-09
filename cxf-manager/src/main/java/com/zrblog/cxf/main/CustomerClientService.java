@@ -19,6 +19,8 @@ public class CustomerClientService {
 
     public static void main(String[] args) {
         try {
+
+            //调用WebService 接口
             JaxWsProxyFactoryBean factoryBean = new JaxWsProxyFactoryBean();
 
             factoryBean.setAddress(address);
