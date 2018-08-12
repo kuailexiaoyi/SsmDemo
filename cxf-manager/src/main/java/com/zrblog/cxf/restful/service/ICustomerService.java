@@ -13,7 +13,7 @@ import java.lang.String;
  */
 
 @Path(value = "/customer")
-@Produces("*/*")
+@Produces("application/json")
 public interface ICustomerService {
 
     @GET
