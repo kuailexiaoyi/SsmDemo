@@ -68,14 +68,13 @@ public class BigdDataTest {
 
         String name = "my big data";
 
-        int size = 1024*1024*10;
+        int size = 1024*1024;
 
         long start = System.currentTimeMillis();
 
         BigData bigData = bigDataWebService.getBigDta(name,size);
 
         long stop = System.currentTimeMillis();
-
         System.out.println("Time:"+(stop-start));
 
     }

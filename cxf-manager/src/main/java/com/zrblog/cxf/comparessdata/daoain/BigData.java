@@ -43,4 +43,12 @@ public class BigData {
     public void setData(String data) {
         this.data = data;
     }
+
+    @Override
+    public String toString() {
+        return "BigData{" +
+                "name='" + name + '\'' +
+                ", data='" + data + '\'' +
+                '}';
+    }
 }
