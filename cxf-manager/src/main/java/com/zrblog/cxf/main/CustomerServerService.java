@@ -1,8 +1,8 @@
 package com.zrblog.cxf.main;
 
+import com.zrblog.cxf.interceptor.ArtifactOutInterceptor;
+import com.zrblog.cxf.interceptor.CAbstractPhaseInterceptor;
 import com.zrblog.cxf.service.impl.CustomerServiceImpl;
-import org.apache.cxf.interceptor.LoggingInInterceptor;
-import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsServerFactoryBean;
 
 /**
@@ -17,8 +17,10 @@ public class CustomerServerService {
 
     public static void main(String[] args) {
         JaxWsServerFactoryBean factoryBean = new JaxWsServerFactoryBean();
-        factoryBean.getInInterceptors().add(new LoggingInInterceptor());
-        factoryBean.getInInterceptors().add(new LoggingOutInterceptor());
+//        factoryBean.getInInterceptors().add(new LoggingInInterceptor());
+//        factoryBean.getOutInterceptors().add(new LoggingOutInterceptor());
+        factoryBean.getInInterceptors().add(new CAbstractPhaseInterceptor("receive"));
+        factoryBean.getOutInterceptors().add(new ArtifactOutInterceptor());
 
         factoryBean.setServiceClass(CustomerServiceImpl.class);
 
